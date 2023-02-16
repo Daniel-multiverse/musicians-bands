@@ -17,8 +17,6 @@ describe('Band and Musician Models', () => {
         const testUser = await Band.create({ name: 'George', genre: 'Country Music' });
         expect(testUser.name).toBe('George');
         expect(testUser.genre).toBe('Country Music');
-
-
     })
 
     test('can create a Musician', async () => {
